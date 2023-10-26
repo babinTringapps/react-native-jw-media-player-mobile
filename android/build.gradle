@@ -63,12 +63,6 @@ dependencies {
     implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1'
     implementation 'com.google.android.gms:play-services-cast-framework:21.0.1'
 
-    // ExoPlayer dependencies
-    implementation "com.google.android.exoplayer:exoplayer-core:${safeExtGet('exoplayerVersion', '2.16.1')}"
-    implementation "com.google.android.exoplayer:exoplayer-dash:${safeExtGet('exoplayerVersion', '2.16.1')}"
-    implementation "com.google.android.exoplayer:exoplayer-hls:${safeExtGet('exoplayerVersion', '2.16.1')}"
-    implementation "com.google.android.exoplayer:exoplayer-smoothstreaming:${safeExtGet('exoplayerVersion', '2.16.1')}"
-    implementation "com.google.android.exoplayer:exoplayer-ui:${safeExtGet('exoplayerVersion', '2.16.1')}"
 
     // JW Player Native UI dependencies
     implementation 'com.squareup.picasso:picasso:2.71828'
